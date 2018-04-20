@@ -1,9 +1,10 @@
 var evia_attendees = [
   "Igor Ilic",
 ];
+var ul = document.createElement('ul');
 document.getElementById('app').appendChild(ul);
 evia_attendees.forEach(function(attendee) {
   var li = document.createElement('li');
-	ul.appendChild(li);
-	li.innerHTML += attendee;
+  ul.appendChild(li);
+  li.innerHTML += attendee;
 });
