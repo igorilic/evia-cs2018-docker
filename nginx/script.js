@@ -1,5 +1,5 @@
 var evia_attendees = [
-  "Igor Ilic",
+  "Igor Ilic", "Liviu Ionesi"
 ];
 var ul = document.createElement('ul');
 document.getElementById('app').appendChild(ul);
